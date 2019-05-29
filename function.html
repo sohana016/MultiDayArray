@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<p id="a"></p>
+<p id="demo"></p>
+<p id="t"></p>
+<p id="mim"></p>
+<p id="k"></p>
+<p id="l"></p>
+<p></p>
+<p></p>
+<p></p>
+<h1>My First Web Page</h1>
+<p>My first paragraph.</p>
+<button type="button" onclick="document.write(5+6)">Click me</button>
+
+
+<script>
+function multiple(p1, p2){
+	return p1 * p2;
+	}
+document.getElementById("a").innerHTML = multiple(4,3);
+
+	var x = myFunction(4, 3);
+document.getElementById("demo").innerHTML = x;
+
+function myFunction(a, b) {
+  return a + b;
+}
+document.getElementById("l").innerHTML = (6,9);
+function toCelsius(p){
+	return (5/9) * (p-32);
+	}
+document.getElementById("t").innerHTML = toCelsius(77);
+
+function toCelsius(f){
+	return (5/9) * (f-32);
+}
+document.getElementById("mim").innerHTML = "The temperature is " + toCelsius(77) + " Celsious";
+document.write(5+6);
+	
+</script>
+</body>
+</html>
